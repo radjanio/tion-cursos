@@ -112,25 +112,25 @@ body {
 }
 
 .dark-mode {
-    background-color: #2C2926;
+    background-color: #314849;
     color: #ffffff;
   }
 
 .dark-mode header {
-  background-color: #2C2926;
+  background-color: #314849;
 }
   
   .dark-mode .menu {
-      background-color: #2C2926;
+      background-color: #314849;
   }
 
-  .dark-mode #rodape{
-    background-color: #2C2926;
+  .dark-mode #rodape{ 
+    background-color: #314849;
     color: #fff;
 }
   
   .dark-mode a{
-      color: #DC3545;
+      color: #81c6ff;
   }
 
   .dark-mode .dropdown-menu {
@@ -138,27 +138,27 @@ body {
   }
 
   .dark-mode .dropdown-toggle {
-    color: #DC3545;
+    color: #81c6ff;
   }
 
   .dark-mode #cadastrar {
-    background-color: #DC3545;
+    background-color: #81c6ff;
   }
 
   .dark-mode #login {
-    background-color: #DC3545;
+    background-color: #81c6ff;
   }
 
   .dark-mode #btn-saiba-mais {
-    background-color: #DC3545;
+    background-color: #81c6ff;
   }
 
   .dark-mode .card {
-    border: 2px solid #DC3545;
+    border: 2px solid #81c6ff;
   }
 
   .dark-mode .secao-apoio-institucional {
-    background-color: #DC3545;
+    background-color: #81c6ff;
   }
 
   .saiba-mais {
@@ -232,7 +232,7 @@ body {
   
   .secao h2 {
     margin-bottom: 5px; /* Espaço abaixo do título */
-    color: #DC3545; /* Crimson red */
+    color: #81c6ff; /* Crimson red */
     animation: color-change 5s infinite alternate; /* Animation properties */
   }
 
@@ -244,8 +244,8 @@ body {
     font-size: 12px;
   }
   @keyframes color-change {
-    from { color: #a30213; } /* Start color - Crimson red */
-    to { color: #C70039; } /* End color - Retro red */
+    from { color: #81c6ff; } /* Start color - Crimson red */
+    to { color: #008cff; } /* End color - Retro red */
   }
 
   @keyframes ensino {
@@ -265,7 +265,7 @@ body {
   .secao-apoio-institucional {
     padding: 50px 0 50px 0;
     text-align: center; /* Alinha o conteúdo no centro */
-    background-color: #000;
+    background-color: #52727f;
     width: 100%;
   }
   
