@@ -213,6 +213,10 @@ body {
     margin-left: 5px;
   }
 
+  .texto-resp {
+    display: none;
+  }
+
   #ensino {
     color: #DC3545; /* Crimson red */
     animation: ensino 3s infinite alternate; /* Animation properties */
@@ -339,7 +343,7 @@ body {
     }
 
     #logo {
-      width: 80px;
+      width: 75px;
     }
 
     .nav {
@@ -351,12 +355,12 @@ body {
     }
 
     #login {
-      width: 60px;
+      width: 50px;
       height: 30px;
     }
 
     #cadastrar {
-      width: 95px;
+      width: 75px;
       height: 30px;
     }
 
@@ -386,6 +390,7 @@ body {
 
     .texto-resp {
       font-size: 17px;
+      display: inline;
     }
 
     .cards {
