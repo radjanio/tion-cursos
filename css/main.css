@@ -375,13 +375,16 @@ body {
 
     .container {
       display: flex;
-      align-items: flex-start;
       margin-top: 4em;
       padding: 20px;
       flex-direction: column-reverse;
     }
 
     .texto {
+      display: none;
+    }
+
+    .texto-resp {
       font-size: 17px;
     }
 
