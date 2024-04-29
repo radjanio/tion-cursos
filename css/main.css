@@ -329,29 +329,83 @@ body {
     font-size: 14px;
   }
   
-  
-  
-  
-  /* Media queries for responsive layout */
-  
   @media (max-width: 768px) {
-    .nav {
-      display: none;
+    header {
+      height: 40px;
     }
-  
-    .user-controls {
-      position: absolute;
-      right: 1rem;
-      top: 1rem;
+
+    body {
+      font-size: 10px;
     }
-  }
-  
-  @media (min-width: 768px) {
+
+    #logo {
+      width: 80px;
+    }
+
     .nav {
       display: flex;
     }
   
     .user-controls {
       position: relative;
+    }
+
+    #login {
+      width: 60px;
+      height: 30px;
+    }
+
+    #cadastrar {
+      width: 95px;
+      height: 30px;
+    }
+
+    #dark-img {
+      width: 25px;
+    }
+
+    #btn-saiba-mais {
+      width: 95px;
+      height: 30px;
+    }
+
+    #btn-saiba-mais-mobile {
+      display: block;
+    }
+
+    .container {
+      display: flex;
+      align-items: flex-start;
+      margin-top: 4em;
+      padding: 20px;
+      flex-direction: column-reverse;
+    }
+
+    .texto {
+      font-size: 17px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .card {
+      width: 100px;
+      height: auto;
+      padding: 5px;
+    }
+
+    .secao-apoio-institucional {
+      padding: 20px 0 20px 0;
+    }
+
+    .imagens-apoio img {
+      width: 50px;
+    }
+    
+    #logo-redes-sociais {
+      width: 15px;
     }
   }
