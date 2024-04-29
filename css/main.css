@@ -405,6 +405,18 @@ body {
       padding: 5px;
     }
 
+    .container-secoes {
+      display: flex;
+      padding-top: 5px;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+
+    .secao {
+      margin-bottom: 5px;
+    }
+
     .secao-apoio-institucional {
       padding: 20px 0 20px 0;
     }
