@@ -5,6 +5,7 @@ body {
   }
   
   .header {
+    height: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,6 +91,7 @@ body {
 }
 
 #cadastrar {
+  color: #fff;
   margin-right: 10px;
   width: 140px;
   height: 40px;
@@ -99,12 +101,14 @@ body {
 }
 
 #login {
+  color: #fff;
   width: 100px;
   height: 40px;
   background-color: #52727f;
   border: none;
   border-radius: 5px;
 }
+
 
 #dark-img {
     padding-top: 5px;
@@ -160,17 +164,6 @@ body {
   .dark-mode .secao-apoio-institucional {
     background-color: #81c6ff;
   }
-
-  .saiba-mais {
-    width: 100%;
-    height: 900px;
-    background: url(../imagens/banner/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: hidden;
-  }
-
   #btn-saiba-mais {
     width: 120px;
     height: 40px;
@@ -200,8 +193,11 @@ body {
     padding: 12px;
   }
 
+  .card h1 {
+    font-size: 17px;
+  }
+
   .card p {
-    padding-top: 20px;
     font-size: 12px;
   }
 
@@ -235,6 +231,7 @@ body {
   }
   
   .secao h2 {
+    font-size: 17px;
     margin-bottom: 5px; /* Espaço abaixo do título */
     color: #81c6ff; /* Crimson red */
     animation: color-change 5s infinite alternate; /* Animation properties */
@@ -332,7 +329,7 @@ body {
     text-align: center;
     font-size: 14px;
   }
-  
+
   @media (max-width: 768px) {
     header {
       height: 40px;
